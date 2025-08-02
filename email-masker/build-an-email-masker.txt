@@ -1,0 +1,23 @@
+** start of script.js **
+
+function maskEmail(email){
+  let atIndex = email.indexOf("@");
+  let mask = email.slice(0,1) + "*".repeat(atIndex-2) + email.slice(atIndex - 1);
+  return mask;
+}
+let emails = [
+  "apple.pie@example.com",
+  "freecodecamp@example.com",
+  "info@test.dev",
+  "user@domain.org"
+];
+let email = "apple.pie@example.com";
+
+console.log(maskEmail(email));
+
+for (let i=0; i<emails.length; i++){
+  console.log(maskEmail(emails[i]));
+}
+
+** end of script.js **
+

@@ -1,0 +1,28 @@
+** start of script.js **
+
+function findLongestWordLength(sentence){
+  if (sentence.trim() == ''){
+    return 0;
+  }
+  
+  const words = sentence.split(/\s+/).map(word=>word.replace(/[^a-zA-Z]/g, ''));
+  
+
+  let maxLength=0;
+
+  for(let word of words){
+    if(word.length > maxLength){
+      maxLength = word.length
+      
+    }
+  }
+
+  return maxLength
+}
+
+const longest = findLongestWordLength("Hello, hi you are a piece of me you are my destiny you are all that i see fabulous");
+
+console.log(longest);
+
+** end of script.js **
+

@@ -1,0 +1,62 @@
+** start of script.js **
+
+let questions = [
+  {
+    category:"Dumb Ahh Questions",
+    question: "Question 1: Would you let your bihh go through your phone?",
+    choices: ["oh Nahh jigsaw your ahh tweakin my boi.", "Yes.", "BOMBACLAART!"],
+    answer: "oh Nahh jigsaw your ahh tweakin my boi."
+  },
+  {
+    category:"Dumb Ahh Questions 2",
+    question: "Question 1: Would you let your dihh go through your bihh?",
+    choices: ["oh hell yeah jigsaw your ahh straight my boi.", "No.", "BOMBACLAART!"],
+    answer: "oh hell yeah jigsaw your ahh straight my boi."
+  },
+  {
+    category:"Dumb Ahh Questions 3",
+    question: "Question 1: dame un que?",
+    choices: ["un grr.", "KYS.", "BOMBACLAART!"],
+    answer: "KYS."
+  },
+  {
+    category:"Dumb Ahh Questions 4",
+    question: "Question 1: ?",
+    choices: ["!", "mb jitt.", "BOMBACLAART!"],
+    answer: "mb jitt."
+  },
+  {
+    category:"Dumb Ahh Questions 5",
+    question: "Question 1: Hello my baby, hello my darling?",
+    choices: ["Hello my part time gyal~", "hi.", "BOMBACLAART!"],
+    answer: "Hello my part time gyal~"
+  }
+];
+
+function getRandomQuestion(questions){
+  let random = Math.floor(Math.random()*questions.length);
+  return questions[random];
+}
+
+function getRandomComputerChoice(choices){
+  let random = Math.floor(Math.random()*choices.length);
+  return choices[random];
+}
+
+function getResults(question, computerChoice){
+  if(computerChoice == question.answer){
+    return "The computer's choice is correct!";
+  }
+  else{
+    return `The computer's choice is wrong. The correct answer is: ${question.answer}`;
+  }
+}
+
+let question = getRandomQuestion(questions);
+let choice = getRandomComputerChoice(question.choices); 
+console.log(choice);
+console.log(getResults(question, choice)); 
+console.log();
+
+** end of script.js **
+
