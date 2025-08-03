@@ -1,0 +1,1 @@
+A FreeCodeCamp JavaScript Lab exercise that has a lunch array and functions for adding/removing lunch menu items to the back/start of the array, retrieving a random lunch item and logging the whole menu with a comma separator.  
