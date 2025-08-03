@@ -1,0 +1,1 @@
+A FreeCodeCamp JavaScript Lab exercise that returns true if arrays second string characters are included in arrays first string.  
