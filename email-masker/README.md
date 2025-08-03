@@ -1,0 +1,1 @@
+A FreeCodeCamp JavaScript Lab exercise that logs all of the emails in "emails" array after masking them with "*" leaving the first 2 and last 1 letters the same.  
