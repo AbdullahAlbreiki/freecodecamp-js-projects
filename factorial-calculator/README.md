@@ -1,0 +1,1 @@
+A FreeCodeCamp JavaScript Lab exercise that returns the factorial of a given integer.  
