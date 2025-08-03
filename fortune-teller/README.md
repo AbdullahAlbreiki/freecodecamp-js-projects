@@ -1,0 +1,1 @@
+A FreeCodeCamp JavaScript Lab exercise that takes a random fortune from a select list of fortunes and logs it back to the console.  
