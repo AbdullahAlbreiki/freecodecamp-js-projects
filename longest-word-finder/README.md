@@ -1,0 +1,1 @@
+A FreeCodeCamp JavaScript Lab exercise that checks a given string for the longest word and returns it with its size.  
