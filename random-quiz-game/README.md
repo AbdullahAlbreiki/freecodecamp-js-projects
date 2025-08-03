@@ -1,0 +1,1 @@
+A FreeCodeCamp JavaScript Lab exercise that has an array of objects containing questions and answers, with a functions for retrieving a random question and a random answer choice and checking if the choice is correct.  
