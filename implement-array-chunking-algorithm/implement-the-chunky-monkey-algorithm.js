@@ -1,4 +1,4 @@
-//impementing the chunk algorithm
+//implementing the chunk algorithm
 function chunkArrayInGroups(array, num){
   //make sure num is of size defined in array
   if(num <= 0) return [];
@@ -20,5 +20,6 @@ function chunkArrayInGroups(array, num){
 
 let arrayChunks = chunkArrayInGroups([1,2,3,4,5,5,6], 2);
 console.log(arrayChunks);
+
 
 
