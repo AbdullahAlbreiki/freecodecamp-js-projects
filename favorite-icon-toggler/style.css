@@ -1,0 +1,43 @@
+/*fill Heart Button*/
+.filled{
+  color: red;
+}
+/*Heart Button*/
+.favorite-icon{
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  
+}
+
+/*div container*/
+.container{
+  text-align: center;
+  margin: 10%;
+  padding: 0;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px -4px;
+}
+
+/**/
+h1{
+  font-family: sans-serif;
+  
+}
+
+/*List*/
+.item-list{
+  list-style-type: none;
+  padding: 10px 32px;
+    
+}
+
+/*all list items*/
+.item-list li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-bottom: 1px solid lightgrey;
+}
