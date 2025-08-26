@@ -13,8 +13,11 @@
 /*div container*/
 .container{
   text-align: center;
-  margin: 10%;
-  padding: 0;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 32px;
+  min-width: 300px;
+  max-width: 500px;
   border: 1px solid grey;
   border-radius: 10px;
   box-shadow: 1px 1px 10px -4px;
@@ -30,7 +33,7 @@ h1{
 .item-list{
   list-style-type: none;
   padding: 10px 32px;
-    
+  font-weight: bold;
 }
 
 /*all list items*/
@@ -40,4 +43,19 @@ h1{
   justify-content: space-between;
   padding: 5px 20px;
   border-bottom: 1px solid lightgrey;
+}
+
+.add-item{
+  border: 1px solid white;
+  border-radius: 3px;
+  background: lightgrey;
+  font-size: 24px;
+  color: grey;
+  width: 30px;
+  height: 30px;
+  
+}
+
+.hidden{
+  visibility: hidden;
 }
