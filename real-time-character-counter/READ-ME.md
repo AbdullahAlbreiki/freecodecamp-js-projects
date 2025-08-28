@@ -1,0 +1,1 @@
+A FreeCodeCamp JavaScript Lab exercise that counts the text area input in real-time using addEventListener input event.
