@@ -10,15 +10,22 @@
   
 }
 
+body{
+  background-image: linear-gradient(180deg, blue, orange);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
 /*div container*/
 .container{
+  background: hsla(0, 0%, 100%, 0.3);
   text-align: center;
   margin: auto;
   margin-top: 100px;
   padding-bottom: 32px;
   min-width: 300px;
   max-width: 500px;
-  border: 1px solid grey;
+  border: 1px solid hsla(0, 0%, 100%, 0.75);
   border-radius: 10px;
   box-shadow: 1px 1px 10px -4px;
 }
@@ -32,8 +39,9 @@ h1{
 /*List*/
 .item-list{
   list-style-type: none;
-  padding: 10px 32px;
+  padding: 0px 32px;
   font-weight: bold;
+  background: hsla(258, 34%, 63%, 0.3);
 }
 
 /*all list items*/
@@ -45,17 +53,55 @@ h1{
   border-bottom: 1px solid lightgrey;
 }
 
+/*Add Button*/
 .add-item{
-  border: 1px solid white;
+  border: 1px solid hsla(0, 0%, 100%, 0.75);
   border-radius: 3px;
-  background: lightgrey;
+  background: hwb(0 100% 0% / 0.3);
   font-size: 24px;
-  color: grey;
+  color: hsla(0, 0%, 0%, 0.75);
   width: 30px;
   height: 30px;
   
 }
 
+/*---Input div field and button---*/
+.input{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  background: rgba(93, 68, 114, 0.272);
+  padding: 0px 32px;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+#input-field{
+  border: none;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 20px;
+  margin-right: 5px;
+  background:hsla(0, 0%, 100%, 0.3);
+  
+}
+.submit{
+  background: hsla(0, 0%, 100%, 0.75);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.75);
+  border: none;
+  font-size: 1rem;
+  padding:2px 8px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  min-width: 90px;
+
+}
+/*------------------*/
+
+/*Visibility class*/
 .hidden{
   visibility: hidden;
 }
