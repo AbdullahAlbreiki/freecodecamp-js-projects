@@ -1,0 +1,1 @@
+A FreeCodeCamp React Lab exercise of making a reusable footer component.
