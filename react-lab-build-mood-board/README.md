@@ -1,0 +1,1 @@
+A FreeCodeCamp React Lab exercise that contains a mood board of multiple images with description and different colors of different destination trips.
