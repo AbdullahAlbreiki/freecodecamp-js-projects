@@ -1,0 +1,1 @@
+A FreeCodeCamp React Lab exercise that changes the background color based on the state of the input color.
