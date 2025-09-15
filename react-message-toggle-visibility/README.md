@@ -1,0 +1,1 @@
+A FreeCodeCamp React Lab exercise that toggles a paragraph text visibility using onClick button and useState.
