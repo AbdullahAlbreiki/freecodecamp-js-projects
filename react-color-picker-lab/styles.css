@@ -1,0 +1,42 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+#color-picker-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+input[type="color"] {
+    position: absolute;
+    margin-top: 50px;
+    height: 40px;
+}
+
+input{
+    margin-top: 50px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0 0 0 2px hsl(0, 0%, 0%, .3);
+    
+}
+p{
+    display: block;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+}
+
