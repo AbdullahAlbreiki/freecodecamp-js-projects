@@ -1,0 +1,1 @@
+A FreeCodeCamp React Lab exercise that turns on a lightbox viewer displaying the selected image.
